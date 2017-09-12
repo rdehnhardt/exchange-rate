@@ -1,0 +1,31 @@
+{
+  "name": "rdehnhardt/excahnge-rate",
+  "description": "Performs currency conversion automatically based on api fixer.io",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Renato Dehnhardt",
+      "email": "renatotkd@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rdehnhardt\\ExchangeRate\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
