@@ -1,7 +1,6 @@
 {
   "name": "rdehnhardt/excahnge-rate",
   "description": "Performs currency conversion automatically based on api fixer.io",
-  "minimum-stability": "dev",
   "type": "library",
   "license": "MIT",
   "authors": [
