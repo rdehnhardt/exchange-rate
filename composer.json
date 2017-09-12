@@ -1,5 +1,5 @@
 {
-  "name": "rdehnhardt/excahnge-rate",
+  "name": "rdehnhardt/exchange-rate",
   "description": "Performs currency conversion automatically based on api fixer.io",
   "license": "MIT",
   "authors": [
