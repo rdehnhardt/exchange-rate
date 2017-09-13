@@ -13,12 +13,8 @@ class Exchange
      * Exchange constructor.
      * @param Fixer $fixer
      */
-    public function __construct(Fixer $fixer = null)
+    public function __construct(Fixer $fixer)
     {
-        if ($fixer === null) {
-            $fixer = new Fixer();
-        }
-
         $this->fixer = $fixer;
     }
 
