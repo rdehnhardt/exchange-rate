@@ -2,6 +2,8 @@
 
 namespace Rdehnhardt\ExchangeRate;
 
+use Rdehnhardt\ExchangeRate\Excaptions\NotFoundException;
+
 class Exchange
 {
     /**
@@ -24,7 +26,7 @@ class Exchange
      * @param $to
      * @param null $rate
      * @return int
-     * @throws \Rdehnhardt\ExchangeRate\Excaptions\NotFoundException
+     * @throws NotFoundException
      */
     public function rate($amount, $from, $to, $rate = null)
     {

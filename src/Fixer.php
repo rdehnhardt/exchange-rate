@@ -16,6 +16,7 @@ class Fixer
      * @param string $from
      * @param string $to
      * @return mixed
+     * @throws NotFoundException
      */
     public function get($from, $to)
     {
